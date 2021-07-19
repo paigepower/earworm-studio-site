@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/*
+   
+   Final Project Reset Style Sheet
+   
+   Filename: project_reset.css
+
+*/
+
+
+/* Basic styles to be used with all devices and under all conditions */
+
+article, aside, figcaption, figure,
+footer, header, main, nav, section { 
+   display: block;
+}
+
+address, article, aside, blockquote, body, div, em, figcaption, figure, footer, 
+h1, h2, header, html, img, li, nav, nav a, ol, p, section, ul,
+table, tr, td, th, col, colgroup {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   background: transparent;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;  
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;  
+}
+
+
+
+
+/* Set the default page element styles */
+
+body {
+   line-height: 1.2em;
+   width: 100%;
+   min-height: 100vh;
+   
+}
+
+ul, ol {
+   list-style: none;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+   list-style: none;
+   list-style-image: none;
+}
+
+nav a {
+   text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header > nav#top > ul > li > a:visited {
+   text-decoration: none;
+}
+
+header > nav#top > ul > li > a:hover {
+   text-decoration: underline;
+}
